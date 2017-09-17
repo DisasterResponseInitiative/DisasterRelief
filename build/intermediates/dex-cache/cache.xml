@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\eSushant\.android\build-cache\7e546c35984686040852d4da779db2040250f769\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="D:\Projects\DisasterRelief\app\build\intermediates\pre-dexed\debug\classes_8e5183ad6013b892baa1a8d2501482b45f383351.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eSushant\.android\build-cache\76a158e8c6ca5fbee9bd0ae25af8fb232d25218f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="D:\Projects\DisasterRelief\app\build\intermediates\pre-dexed\debug\classes_61073e63120a9a5575cbe7ca70d4b730e2cacd3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eSushant\.android\build-cache\62dff5496c2f3f38316c4fa3877bd2282de994ea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="D:\Projects\DisasterRelief\app\build\intermediates\pre-dexed\debug\classes_9e16cc614e8039803f2f852dcad04da49f3fc360.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\eSushant\.android\build-cache\aa75d69d143f849a84d559a11d8a3bcc403c49a4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="D:\Projects\DisasterRelief\app\build\intermediates\pre-dexed\debug\classes_f99ce6f93e60a1b9cc8c1e58f7b872d3059d9ab7.jar" />
+    </item>
+
+</items>
