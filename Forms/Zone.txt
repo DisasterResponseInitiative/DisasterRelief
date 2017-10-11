@@ -1,0 +1,34 @@
+<select>Bagmati<select>
+<select>Bheri<select> 
+<select>Dhawalagiri<select> 
+<select>Gandaki<select> 
+<select>Janakpur<select> 
+<select>Karnali<select> 
+<select>Koshi<select> 
+<select>Lumbini<select> 
+<select>Mahakali<select> 
+<select>Mechi<select> 
+<select>Narayani<select> 
+<select>Rapti<select>
+<select>Sagarmatha<select>
+<select>Seti<select> 
+
+
+<label for="zone">Zone*</label>
+		<input id="zone" list="zones" />
+		<datalist id="zones">
+			<option value="Bagmati">
+			<option value="Bheri">
+		  	<option value="Dhawalagiri">
+		  	<option value="Gandaki">
+ 		  	<option value="Janakpur">
+			<option value="Karnali">
+		  	<option value="Koshi">
+		  	<option value="Lumbini">
+ 			<option value="Mahakali">
+		  	<option value="Mechi">
+		  	<option value="Narayani">
+		  	<option value="Rapti">
+			<option value="Sagarmatha">
+		  	<option value="Seti">
+		</datalist>

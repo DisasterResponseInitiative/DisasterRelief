@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<script type="text/javascript" src="verify.js"></script>
+<form id="myform" name="myform" method = "post">
+	<fieldset id="demographicDetails">
+		<legend>Demographic Details</legend>
+		<label for="fName">First Name*</label>
+		<input type="text" maxlength="30" id="fName" title="Enter your First Name" pattern="[A-Za-z]+" autofocus required placeholder="First Name" /><br>
+		<label for="lName">Last Name*</label>
+		<input type="text" maxlength="30" id="lName" title="Enter your Last Name" pattern="[A-Za-z]+" autofocus required placeholder="Last Name" /><br>
+		<label for="DOB">Date of Birth*</label>
+		<input type="date" id="DOB" /><br>
+		<label for="occupation">Occupation</label>
+		<input type="text" id="Occupation" pattern="[A-Za-z]+" autofocus placeholder="Occupation" /><br>
+		<label for="gender">Gender*</label>
+		<input type="radio" name="gender" value="Male" id="male"/>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" value="Female" id="female"/>
+		<label for="female">Female</label>
+	</fieldset>
+	<br>
+	<fieldset id="addressDetails">
+		<legend>Address Details</legend>
+		<label for="zone">Zone*</label>
+		<input id="zone" list="zones" />
+		<datalist id="zones">
+		<optgroup label="Eastern Development Region">
+			<option value="Mechi"></option>
+			<option value="Koshi"></option>
+			<option value="Sagarmatha"></option>
+		 </optgroup> 
+	  	<optgroup label="Central Development Region">
+	  		<option value="Janakpur"></option>
+	  		<option value="Bagmati" selected></option>
+	  		<option value="Narayani"></option>
+	  	</optgroup>
+	  	<optgroup label="Western Development Region">
+	  		<option value="Gandaki"></option>
+	  		<option value="Lumbini"></option>
+	  		<option value="Dhawalagiri"></option>
+	  	</optgroup>
+	  	<optgroup label="Mid-Western Development Region">
+	  		<option value="Rapti"></option>
+			<option value="Karnali"></option>
+			<option value="Bheri"></option>
+	  	</optgroup>
+	  	<optgroup label="Far-Western Development Region">
+	  		<option value="Seti"></option>
+	  		<option value="Mahakali"></option>
+	  	</optgroup>		  	
+		</datalist>
+		<label for="District">District*</label>
+		<input id="district" list="districts" />
+		<datalist id="districts">
+			<option value="Jhapa"></option>
+			<option value="Ilam"></option>
+			<option value="Panchthar"></option>
+			<option value="Taplejung"></option>
+			<option value="Morang"></option>  
+			<option value="Sunsari"></option>  
+			<option value="Bhojpur"></option>  
+			<option value="Dhankuta"></option> 
+			<option value="Terhathum"></option>  
+			<option value="Sankhuwasabha"></option>  
+			<option value="Saptari"></option>  
+			<option value="Siraha"></option>  
+			<option value="Udayapur"></option>  
+			<option value="Khotang"></option>  
+			<option value="Okhaldhunga"></option>  
+			<option value="Solukhumbu"></option>  
+			<option value="Dhanusa"></option>  
+			<option value="Mahottari"></option>  
+			<option value="Sarlahi"></option>  
+			<option value="Sindhuli"></option> 
+			<option value="Ramechhap"></option> 
+			<option value="Dolakha"> </option> 
+			<option value="Bhaktapur"></option>  
+			<option value="Dhading"></option> 
+			<option value="Kathmandu" selected></option>  
+			<option value="Kavrepalanchok"></option>  
+			<option value="Lalitpur"></option>  
+			<option value="Nuwakot"></option>  
+			<option value="Rasuwa"></option> 
+			<option value="Sindhupalchok"></option>  
+			<option value="Bara"></option>  
+			<option value="Parsa"></option>  
+			<option value="Rautahat"></option> 
+			<option value="Chitwan"></option>  
+			<option value="Makwanpur"></option>  
+			<option value="Gorkha"></option>  
+			<option value="Kaski"></option>  
+			<option value="Lamjung"></option>  
+			<option value="Syangja"></option>  
+			<option value="Tanahun"></option> 
+			<option value="Manang"></option>  
+			<option value="Kapilvastu"></option>  
+			<option value="Nawalparasi"></option> 
+			<option value="Rupandehi"></option> 
+			<option value="Arghakhanchi"></option>  
+			<option value="Gulmi"></option> 
+			<option value="Palpa"></option> 
+			<option value="Baglung"></option>  
+			<option value="Myagdi"></option> 
+			<option value="Parbat"></option>
+			<option value="Mustang"></option> 
+			<option value="Dang Deukhuri"></option>  
+			<option value="Pyuthan"></option>  
+			<option value="Rolpa"></option>  
+			<option value="Rukum"></option>  
+			<option value="Salyan"></option>  
+			<option value="Dolpa"></option>  
+			<option value="Humla"></option>  
+			<option value="Jumla"></option>  
+			<option value="Kalikot"></option>  
+			<option value="Mugu"></option>  
+			<option value="Banke"></option>  
+			<option value="Bardiya"></option>  
+			<option value="Surkhet"></option>  
+			<option value="Dailekh"></option>  
+			<option value="Jajarkot"></option>  
+			<option value="Kailali"></option>  
+			<option value="Achham"></option>  
+			<option value="Doti"></option>  
+			<option value="Bajhang"></option>  
+			<option value="Bajura"></option>  
+			<option value="Kanchanpur"></option>  
+			<option value="Dadeldhura"></option>  
+			<option value="Baitadi"></option>  
+			<option value="Darchula"></option>  
+		</datalist>
+		<br>
+		<label for="city_village">City/Village*</label>
+		<input type="text" id="city_village" required autofucus/>
+		<label for="ward">Ward No.</label>
+		<input type="number" max="9" min="1" id="ward" autofocus/><br>
+		<label for="email">Email id</label>
+		<input type="email" id="email" placeholder="072bct@ioe.edu.np" /><br>
+		<label for="emergencyContact">Emergency Contact Number*</label>
+		<input type="tel" id="emergencyContact" pattern="[0-9]{10}" autofocus placeholder="Contact Number" /><br>
+		<label for="mobileContact">Mobile Number</label>
+		<input type="tel" id="mobileContact" pattern="[0-9]{10}" autofocus placeholder="Mobile Number" /><br>
+	</fieldset>
+	<fieldset id="accountDetails">
+		<legend>Account Details</legend>
+		<label for="username">Username*</label>
+		<input type="text" id="username" pattern="^[A-Za-z0-9_]{1,32}$" autofocus required placeholder="Username"/><br>
+		<label for="password">Password*</label>
+		<input type="password" id="password" autofocus required placeholder="Password"><br>
+		<label for="re_password">Re-Enter Password*</label>
+		<input type="password" id="re_password" autofocus required placeholder="Re-Enter Password"><br>
+	</fieldset>
+	<fieldset id="verification">
+		<span>Send Verification Code : </span>
+		<input type="radio" name="verify" value="E-mail Id" id="verifyEmail"/>
+		<label>E-mail Id</label>
+		<input type="radio" name="verify" value="Mobile Number" id="verifyMobile"/>
+		<label>Mobile Number</label>
+		<br>
+		<button type="button" name="Verification" id="verifyButton">Verify</button>
+		<div id="verifyMessage">
+			<p>A verification number has been sent to <p id="verifyMode"></p></p>
+			<span>Enter Verification code</span>
+			<input type="number" max="7">
+			<br>
+			<button type="submit" id="submit">Submit</button>
+		</div>
+	</fieldset>	
+</form>
+</body>
+</html>
