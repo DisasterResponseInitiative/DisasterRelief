@@ -1,0 +1,72 @@
+#myform {
+	font: normal .8em/1em Arial, Helvetica, Geneva, sans-serif;
+	max-width: 500px;
+	background:#DDD;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px #20242C;
+}
+
+
+button,input {
+	background: white;
+	border-radius: 2;
+	padding: 3px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#myform fieldset {
+	border: none;
+	margin: 1em;
+	padding: 1em;
+}
+
+#myform fieldset:before {
+	content:attr(title);
+	display: block;
+	padding: 0;
+	padding: 20px 10px 3px 10px;
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #777;
+	margin: 0 auto;
+	text-shadow: 1px 1px 1px #FFF;
+}
+  
+#myform legend {
+	font-size:2em;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+/*#myform .hint {
+	font-weight: normal;
+	color: #2076c8;
+	margin-left: 10px;
+}
+
+#myform .error {
+	font-weight: normal;
+	color: #cf1925;
+	margin-left: 10px;
+}*/
+
+
+#myform button{
+	width: 10em;
+ 	height: 2em;
+	padding: 0;
+	margin-right: 10px;
+	margin-top: 5px;
+	border: 0;
+	color:#FFF;
+	font-weight: bold;
+	cursor: pointer;
+	
+	background: linear-gradient(#466E82,#2C4552);
+	border-radius: 8px;
+}
+
+#myform button:hover {
+	background: linear-gradient(#93481A,#6D2F0E);
+}
