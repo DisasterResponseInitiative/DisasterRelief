@@ -1,42 +1,4 @@
 
-## Limitations
-
-  - Primary keys should either be auto-increment (from 1 to 2^53) or UUID
-  - Composite primary or foreign keys are not supported
-  - Complex filters (with both "and" & "or") are not supported
-  - Complex writes (transactions) are not supported
-  - Complex queries calling functions (like "concat" or "sum") are not supported
-  - MySQL storage engine must be either InnoDB or XtraDB
-  - SQLite does not support binary and spatial/GIS functionality
-  - MySQL BIT field type is not supported (use TINYINT)
-
-## Features
-
-  - Single PHP file, easy to deploy.
-  - Very little code, easy to adapt and maintain
-  - Streaming data, low memory footprint
-  - Supports POST variables as input
-  - Supports a JSON object as input
-  - Supports a JSON array as input (batch insert)
-  - Supports file upload from web forms (multipart/form-data)
-  - Condensed JSON ouput: first row contains field names
-  - Sanitize and validate input using callbacks
-  - Permission system for databases, tables, columns and records
-  - Multi-tenant database layouts are supported
-  - Multi-domain CORS support for cross-domain requests
-  - Combined requests with support for multiple table names
-  - Search support on multiple criteria
-  - Pagination, sorting and column selection
-  - Relation detection and filtering on foreign keys
-  - Relation "transforms" for PHP and JavaScript
-  - Atomic increment support via PATCH (for counters)
-  - Binary fields supported with base64 encoding
-  - Spatial/GIS fields and filters supported with WKT
-  - Unstructured data support through JSON/JSONB/XML
-  - Generate API documentation using Swagger tools
-  - Authentication via JWT token or username/password (via [PHP-API-AUTH](https://github.com/mevdschee/php-api-auth))
-
-
 
 ## Documentation
 
@@ -45,6 +7,7 @@ After configuring you can directly benefit from generated API documentation. On 
     http://dri.cloud.sushant.info.np/api.php
 
 Try the [editor](http://editor.swagger.io/) to quickly view it! Choose "File" > "Paste JSON..." from the menu.
+Use [REST Test](https://resttesttest.com/) to quickly test API responses in your own browser.
 
 ## Usage
 
@@ -762,3 +725,41 @@ This should output:
 string(3) "GET"
 string(6) "/posts"
 ```
+
+## Limitations
+
+  - Primary keys should either be auto-increment (from 1 to 2^53) or UUID
+  - Composite primary or foreign keys are not supported
+  - Complex filters (with both "and" & "or") are not supported
+  - Complex writes (transactions) are not supported
+  - Complex queries calling functions (like "concat" or "sum") are not supported
+  - MySQL storage engine must be either InnoDB or XtraDB
+  - SQLite does not support binary and spatial/GIS functionality
+  - MySQL BIT field type is not supported (use TINYINT)
+
+## Features
+
+  - Single PHP file, easy to deploy.
+  - Very little code, easy to adapt and maintain
+  - Streaming data, low memory footprint
+  - Supports POST variables as input
+  - Supports a JSON object as input
+  - Supports a JSON array as input (batch insert)
+  - Supports file upload from web forms (multipart/form-data)
+  - Condensed JSON ouput: first row contains field names
+  - Sanitize and validate input using callbacks
+  - Permission system for databases, tables, columns and records
+  - Multi-tenant database layouts are supported
+  - Multi-domain CORS support for cross-domain requests
+  - Combined requests with support for multiple table names
+  - Search support on multiple criteria
+  - Pagination, sorting and column selection
+  - Relation detection and filtering on foreign keys
+  - Relation "transforms" for PHP and JavaScript
+  - Atomic increment support via PATCH (for counters)
+  - Binary fields supported with base64 encoding
+  - Spatial/GIS fields and filters supported with WKT
+  - Unstructured data support through JSON/JSONB/XML
+  - Generate API documentation using Swagger tools
+  - Authentication via JWT token or username/password (via [PHP-API-AUTH](https://github.com/mevdschee/php-api-auth))
+
